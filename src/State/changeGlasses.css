@@ -1,0 +1,53 @@
+.glasses {
+  background-image: url(../assets/image/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.image img {
+  margin: 50px 0 0;
+  border: 2px solid black;
+  width: 40%;
+}
+.image {
+  position: relative;
+}
+.row {
+  border: 2px solid black;
+  margin-top: 40px;
+}
+.col-2 {
+  margin-top: 20px;
+}
+.item .show img {
+  width: 100%;
+  
+}
+.info{
+  display: none;
+  color: black;
+  width: 40%;
+  background-color: burlywood;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,103%);
+  opacity: 0.8;
+}
+.see img{
+  width: 23%;
+  position: absolute;
+  border: none;
+  opacity: 0.8;
+  background: transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-210%);
+}
+.item .show{
+  cursor: pointer;
+}
+.item .show:hover{
+  border: 2px solid blueviolet;
+}
